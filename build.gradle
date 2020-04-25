@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.3.61'
 }
 
+apply plugin: 'application'
 group 'com.brok1n.kotlin.fx'
 version '1.0-SNAPSHOT'
 
@@ -12,7 +13,7 @@ repositories {
     mavenCentral()
 }
 
-//mainClassName = 'com.brok1n.kotlin.fx.contentsearch.Main'
+mainClassName = 'com.brok1n.kotlin.fx.contentsearch.Main'
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"

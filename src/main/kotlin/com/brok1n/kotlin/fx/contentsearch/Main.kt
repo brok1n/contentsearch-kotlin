@@ -48,7 +48,6 @@ class Main: Application() {
 //        }
 
         primaryStage.show()
-
     }
 
     companion object {
